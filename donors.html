@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alturist|About</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Mochiy Pop P One', sans-serif;
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: sticky;
+            top: 0;
+            cursor: pointer;
+        }
+
+        .background {
+            background: black;
+            /* background-blend-mode: darken; */
+            background-size: cover;
+        }
+
+        .nav-list {
+            width: 70%;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            justify-content: left;
+            align-items: left;
+        }
+
+        .logo img {
+            width: 180px;
+            border-radius: 50px;
+        }
+
+        .nav-list li {
+            list-style: none;
+            padding: 26px 30px;
+        }
+
+        .nav-list li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .nav-list li a:hover {
+            color: grey;
+        }
+
+        .rightnav {
+            width: 30%;
+            text-align: right;
+        }
+
+        #search {
+            padding: 5px;
+            font-size: 17px;
+            border: 2px solid grey;
+            border-radius: 9px;
+        }
+
+        .btn {
+            padding: 8px 20px;
+            margin: 7px 0;
+            border: 2px solid white;
+            border-radius: 8px;
+            background: none;
+            color: white;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            border: 2px solid grey;
+            color: grey;
+        }
+
+        .content {
+            font-family: 'Fira Sans', sans-serif;
+            padding: 1em;
+            font-size: 1.5em;
+            text-align: justify;
+        }
+
+        #form {
+            font-family: 'Fira Sans', sans-serif;
+            padding-top: 3rem;
+        }
+
+        p {
+            font-size: 1em;
+            /* font-weight: 600; */
+            font-family: 'Fira Sans';
+        }
+
+        .link {
+            font-size: 1em;
+            font-family: 'Fira Sans';
+            text-decoration: underline;
+            color: rgb(60, 60, 233);
+        }
+
+        .bodybtn {
+            padding: 8px 20px;
+            margin: 7px 0;
+            border: 2px solid black;
+            border-radius: 8px;
+            background: none;
+            color: black;
+            cursor: pointer;
+        }
+
+        .bodybtn:hover {
+            border: 2px solid white;
+            background-color: black;
+            color: white;
+        }
+
+        .bg {
+            background-image: url('bg.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            height: 100vh;
+            width: 100vw;
+            display: table-cell;
+            padding: 0 !important;
+            margin: 0;
+            vertical-align: top;
+            text-align: center;
+        }
+
+        .section1H1 {
+            padding-top: 35vh !important;
+            font-family: 'Kumbh Sans', sans-serif;
+            font-weight: 900;
+            font-size: 5rem;
+            /* color:#44aaa5 */
+            color: #FFD698;
+        }
+
+        .container {
+            margin: 2%;
+            text-align: center;
+        }
+
+        .container h1 {
+            font-size: xx-large;
+        }
+
+        .container p {
+            font-size: large;
+        }
+
+        .section3 {
+            background-color: rgb(0, 0, 0);
+            color: white;
+            align-items: center;
+            padding-bottom: 2%;
+        }
+
+        .video-responsive {
+            margin-top: 2%;
+            margin-bottom: 3%;
+        }
+
+        .section3 h2 {
+            padding: 2%;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo">
+                <!-- <img src= "logo.png"> -->
+                <a href="About.html" style="text-decoration: none; color: white;">ALTURISTS</a>
+            </div>
+            <!-- <li><a href="About.html" target="_blank">About</a></li> -->
+            <li><a href="#program" target="_blank">Services</a></li>
+            <li><a href="donation.html" target="_blank">Donation</a></li>
+            <li><a href="Career.html" target="_blank">Careers</a></li>
+            <li><a href="#course" target="_blank">Contact Us</a></li>
+            <li><a href="donors.html" target="_blank">Our Donors</a></li>
+            <li><a href="login.html" target="_blank">Login/Sign Up</a></li>
+        </ul>
+
+        <div class="rightNav">
+            <input type="text" name="search" id="search">
+            <button class="btn">Search</button>
+        </div>
+    </nav>
+    <br><br><br><br><br><br>
+<hr><br>
+<font size="6" face="monospace"><center>Our Donors</font><br><br>
+    <hr><br>
+<!-- <font size="4" face="monospace">Today's date:</font> -->
+<!-- <font size="4" face="monospace" id="date">Today's date: -->
+</center>
+<br><br>
+<p><h3 id="list" style="text-align:center; font-weight: 100;"></h3></center></p>
+<br><br>
+<p><center><button id="button5" class="button1" onclick="clickevent2()"> Previous </button> &emsp; <button id="button4" class="button1" onclick="clickevent()"> Next </button></center></p>
+</font>
+
+<script language="javascript" type="text/javascript">
+
+    // var d = new Date();
+    // var day = d.getDate();
+    // document.getElementById("date").innerHTML = day;
+    const first = ["__________1__________", "Adam Clovi", "Assitant Director", "Duval Studios", "Rs. 100,000"];
+    let n = first.length;
+    const second = ["__________2__________", "Diana Payne", "Estate Planner", "Finra & Co.", "Rs. 45,000"];
+    let n2 = second.length;
+    var text = "";
+    for (let i = 0; i < n; i++) {
+        text += first[i] + "<br>";
+    }
+    document.getElementById("list").innerHTML = text;
+    function clickevent() {
+        var text = "";
+        for (let i = 0; i < n2; i++) {
+            text += second[i] + "<br>";
+        }
+        document.getElementById("list").innerHTML = text;
+    }
+    function clickevent2() {
+        var text = "";
+        for (let i = 0; i < n; i++) {
+            text += first[i] + "<br>";
+        }
+        document.getElementById("list").innerHTML = text;
+    }
+</script>
+
+</body>
+</html>

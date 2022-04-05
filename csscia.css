@@ -1,0 +1,78 @@
+body{
+    background-color:black;
+}
+
+h1{
+    font-family: 'Cera Pro Black';
+    color: white;
+    padding-right: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.logo-head{
+  font-family: 'Cera Pro Black';
+  color: white;
+  padding-right: 20px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+h2{
+  font-family: 'Cera Pro Light';
+  color: white;
+  padding-right: 20px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+
+
+.campus{
+  width: 100%;
+  background: -webkit-linear-gradient()
+}
+.logo-img{
+    float:left;
+    padding-right: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    filter:invert(100);
+}
+h3{
+    color:white;
+    size: 32px;
+}
+
+thead {
+	background-color: #2f2fa2;
+    color: white;
+	font-size: 22px;
+	letter-spacing: 2%;
+    
+}
+
+table {
+    border-collapse: collapse;
+    width: 25%;
+    position: relative;
+    top: 20px;
+    left: 20px;  
+}
+  
+  th, td {
+    border: 1px solid black;
+  }
+
+  .testbutton {
+  font-family: "Cera Pro Thin";
+  align-content: center;
+  color: #2f2fa2;
+  font-size: 15px;
+  padding: 10px 25px;
+  border-radius: 10px;
+  background: #FFFFFF;
+}
+.testbutton:hover {
+  color: #ffffff !important;
+  background: #000000;
+}

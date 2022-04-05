@@ -1,0 +1,39 @@
+<html>
+<!-- <link rel="stylesheet" href="cssCIA.css"> -->
+<script>
+    
+    var tot_fee = 5646;
+    function Donation()
+    {
+        
+        var fee = prompt("Enter donation amount");
+        var new_fee = tot_fee-fee;
+
+        
+            alert("Your donation is succesful");
+        
+    }
+
+    function No_Donation(){
+        if (confirm("Shall we redirect you to our Home Page?")){
+            window.open("./About.html");
+        }
+    }
+
+</script>
+
+
+<body style="margin:0px; padding:0px; ">
+    <img src="./images/pic 2.png" class="campus"  style="height:99vh; width:99vw; padding-top: 0px;margin-top: 0px;">
+    <h1 style="text-align: center;font-size: 65px;">Donation for our NGO</h1>
+    <!-- <p style="font-family: Cera Pro Light;font-size: 22px;color: white;" align="center">Maximum Donation is Rs. 100</p>
+    <br> -->
+    <h2 style="text-align: center;">Do you want to donate?</h2>
+    <p align="center">
+    <button type="submit" class="testbutton" onclick="Donation()">Yes</button>
+    <button  class="testbutton" onclick="No_Donation()">No</button>
+    </p>
+</body>
+</a>
+
+</html>

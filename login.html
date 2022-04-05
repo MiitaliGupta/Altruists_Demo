@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alturist|Login</title>
+     <!-- Fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link
+         href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap"
+         rel="stylesheet">
+     <link
+         href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+         rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Mochiy Pop P One', sans-serif;
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: sticky;
+            top: 0;
+            cursor: pointer;
+        }
+
+        .background {
+            background: black;
+            /* background-blend-mode: darken; */
+            background-size: cover;
+        }
+
+        .nav-list {
+            width: 70%;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            justify-content: left;
+            align-items: left;
+        }
+
+        .logo img {
+            width: 180px;
+            border-radius: 50px;
+        }
+
+        .nav-list li {
+            list-style: none;
+            padding: 26px 30px;
+        }
+
+        .nav-list li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .nav-list li a:hover {
+            color: grey;
+        }
+
+        .rightnav {
+            width: 30%;
+            text-align: right;
+        }
+
+        #search {
+            padding: 5px;
+            font-size: 17px;
+            border: 2px solid grey;
+            border-radius: 9px;
+        }
+
+        .btn {
+            padding: 8px 20px;
+            margin: 7px 0;
+            border: 2px solid white;
+            border-radius: 8px;
+            background: none;
+            color: white;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            border: 2px solid grey;
+            color: grey;
+        }
+        .content {
+            font-family: 'Fira Sans', sans-serif;
+            padding: 1em;
+            font-size: 1.5em;
+            text-align: justify;
+        }
+        #form{
+            font-family: 'Fira Sans', sans-serif;  
+            padding-top:3rem ;
+        }
+        p{
+            font-size: 1.25em; 
+            font-weight: 600;
+            font-family:'Fira Sans' ;
+        }
+        .link{
+            font-size: 1em; 
+            font-family:'Fira Sans' ;
+            text-decoration: underline;
+            color: rgb(60, 60, 233);
+        }
+        .bodybtn{
+            padding: 8px 20px;
+            margin: 7px 0;
+            border: 2px solid black;
+            border-radius: 8px;
+            background: none;
+            color: black;
+            cursor: pointer;
+        }
+        .bodybtn:hover{
+            border: 2px solid white;
+            background-color: black;
+            color: white;
+        }
+    </style>
+
+</head>
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo">
+                <!-- <img src= "logo.png"> -->
+                <a href="About.html" style="text-decoration: none; color: white;">ALTURISTS</a>
+            </div>
+            <!-- <li><a href="About.html" target="_blank">About</a></li> -->
+            <li><a href="#program" target="_blank">Services</a></li>
+            <li><a href="donation.html" target="_blank">Donation</a></li>
+            <li><a href="Career.html" target="_blank">Careers</a></li>
+            <li><a href="#course" target="_blank">Contact Us</a></li>
+            <li><a href="donors.html" target="_blank">Our Donors</a></li>
+            <li><a href="login.html" target="_blank">Login/Sign Up</a></li>
+        </ul>
+
+        <div class="rightNav">
+            <input type="text" name="search" id="search">
+            <button class="btn">Search</button>
+        </div>
+    </nav>
+    &nbsp;
+
+
+    <center>
+        <form id="form">
+            <!-- <img src="Evento.png" height=200 width=500><br><br> -->
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+            <h2 style="font-size: 4em; font-family:'Fira Sans' ;">LogIn</h2>
+            <br><br><br>
+            <p>Email/UserID: <input type="text" name="id"></p>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <p>Password: <input type="password" name="pass"></p><br>
+            <a href="#" class="link">Forgot Password</a>
+            <br><br>
+            <button class="bodybtn">&emsp;LogIn&emsp;</button>
+            <br><br><br>
+            Do not have an existing account?&ensp;
+            <a href="#" class="link">Register Now!!</a>
+        </form>
+        </center>
+</body>
+</html>
